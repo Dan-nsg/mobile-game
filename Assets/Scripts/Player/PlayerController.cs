@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour
 
     public float speed = 1f;
 
+    private void Awake() 
+    {
+        startToRun();
+    }
     void Update()
     {
         if(!_canRun) return;
@@ -50,7 +54,7 @@ public class PlayerController : MonoBehaviour
         _canRun = false;
         endScreen.SetActive(true);
     }
-
+    
     public void startToRun()
     {
         _canRun = true;
