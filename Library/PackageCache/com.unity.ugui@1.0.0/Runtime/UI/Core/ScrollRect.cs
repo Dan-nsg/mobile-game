@@ -835,6 +835,8 @@ namespace UnityEngine.UI
             UpdateBounds();
             float deltaTime = Time.unscaledDeltaTime;
             Vector2 offset = CalculateOffset(Vector2.zero);
+
+            // Skip processing if deltaTime is invalid (0 or less) as it will cause inaccurate velocity calculations and a divide by zero error.
             if (deltaTime > 0.0f)
             {
                 if (!m_Dragging && (offset != Vector2.zero || m_Velocity != Vector2.zero))

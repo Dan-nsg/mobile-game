@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Plataformer2D.Core.Singleton;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     [Header("Lerp")]
     public Transform target;
@@ -14,9 +15,14 @@ public class PlayerController : MonoBehaviour
     public GameObject endScreen;
     private bool _canRun;
     private Vector3 _pos;
+    private float _currentSpeed;
 
     public float speed = 1f;
 
+    private void Start() 
+    {
+        ResetSpeed();
+    }
     private void Awake() 
     {
         startToRun();
@@ -59,4 +65,16 @@ public class PlayerController : MonoBehaviour
     {
         _canRun = true;
     }
+
+    #region POWERUPS
+    public void PowerUpSpeed(float f)
+    {
+        _currentSpeed = f;
+    }
+
+    public void ResetSpeed()
+    {
+        _currentSpeed = speed;
+    }
+    #endregion
 }

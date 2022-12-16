@@ -1,0 +1,50 @@
+{
+  "name": "com.unity.cinemachine",
+  "displayName": "Cinemachine",
+  "version": "2.9.2",
+  "unity": "2019.4",
+  "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+  "keywords": [
+    "camera",
+    "follow",
+    "rig",
+    "fps",
+    "cinematography",
+    "aim",
+    "orbit",
+    "cutscene",
+    "cinematic",
+    "collision",
+    "freelook",
+    "cinemachine",
+    "compose",
+    "composition",
+    "dolly",
+    "track",
+    "clearshot",
+    "noise",
+    "framing",
+    "handheld",
+    "lens",
+    "impulse"
+  ],
+  "category": "cinematography",
+  "dependencies": {
+    "com.unity.test-framework": "1.1.31"
+  },
+  "samples": [
+    {
+      "displayName": "Cinemachine Example Scenes",
+      "description": "Sample scenes illustrating various ways to use Cinemachine",
+      "path": "Samples~/Cinemachine Example Scenes"
+    }
+  ],
+  "upmCi": {
+    "footprint": "12e24943d6bb961ff62e802efd2ce2b03b27bb0f"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+    "type": "git",
+    "revision": "2cf333415b8b110b132992a53dbb9e64e0436b89"
+  }
+}

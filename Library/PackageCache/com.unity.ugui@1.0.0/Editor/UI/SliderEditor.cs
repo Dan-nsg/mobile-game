@@ -91,7 +91,21 @@ namespace UnityEditor.UI
                     m_Value.floatValue = Mathf.Round(m_Value.floatValue);
 
                 EditorGUI.BeginDisabledGroup(areMinMaxEqual);
+                EditorGUI.BeginChangeCheck();
                 EditorGUILayout.Slider(m_Value, m_MinValue.floatValue, m_MaxValue.floatValue);
+                if (EditorGUI.EndChangeCheck())
+                {
+                    // Apply the change before sending the event
+                    serializedObject.ApplyModifiedProperties();
+
+                    foreach (var t in targets)
+                    {
+                        if (t is Slider slider)
+                        {
+                            slider.onValueChanged?.Invoke(slider.value);
+                        }
+                    }
+                }
                 EditorGUI.EndDisabledGroup();
 
                 bool warning = false;
