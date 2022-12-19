@@ -48,8 +48,8 @@
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\ProjectBindRedirectPopupWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UserRoleManagement\IUserRoleRequest.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\OfflineUiHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\LoggedOutUiHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\EditorGameServiceDashboardHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\LoggedOutUiHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\AccessTokenErrorUiHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\CloudEnvironment\CloudEnvironmentConfigProvider.cs" />
