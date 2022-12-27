@@ -8,7 +8,7 @@ public class PowerUpInvencible : PowerUpBase
     {
         base.StartPowerUp();
         PlayerController.Instance.SetPowerUpText("Invencible");
-        PlayerController.Instance.SetInvencible(amountToSpeed);
+        PlayerController.Instance.SetInvencible(true);
     }
 
     protected override void EndPowerUp()

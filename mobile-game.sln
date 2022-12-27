@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Performance.Profile-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Scheduler", "Unity.Services.Core.Scheduler.csproj", "{ab367a67-7f99-aa71-ab25-f4996969229b}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{7b2ead9a-7bc6-711c-2dad-20cf0c7adaec}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unity.VSCode.Editor.csproj", "{7e2ab7c6-6db4-d72c-78ef-a888e3a04d15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection", "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj", "{f63395fe-ac2b-d410-454f-cde1d2284951}"
@@ -176,6 +178,8 @@ Global
 		{186c8cbd-2691-0546-8f53-c729574bb1ea}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ab367a67-7f99-aa71-ab25-f4996969229b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ab367a67-7f99-aa71-ab25-f4996969229b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7b2ead9a-7bc6-711c-2dad-20cf0c7adaec}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7b2ead9a-7bc6-711c-2dad-20cf0c7adaec}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7e2ab7c6-6db4-d72c-78ef-a888e3a04d15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7e2ab7c6-6db4-d72c-78ef-a888e3a04d15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f63395fe-ac2b-d410-454f-cde1d2284951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

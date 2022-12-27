@@ -127,6 +127,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"D:/Unity/2022.2.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity/2022.2.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/Unity/2022.2.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -335,6 +336,7 @@
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
@@ -376,6 +378,8 @@
 "Assets/Scripts/Plataformer2D/Core/Singleton/Singleton.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/PowerUp/PowerUpBase.cs"
+"Assets/Scripts/PowerUp/PowerUpCoins.cs"
+"Assets/Scripts/PowerUp/PowerUpHeight.cs"
 "Assets/Scripts/PowerUp/PowerUpInvencible.cs"
 "Assets/Scripts/PowerUp/PowerUpSpeed.cs"
 "Assets/Scripts/TouchController.cs"
