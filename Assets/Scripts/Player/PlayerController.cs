@@ -37,7 +37,6 @@ public class PlayerController : Singleton<PlayerController>
     }
     private void Awake() 
     {
-        startToRun();
     }
     void Update()
     {

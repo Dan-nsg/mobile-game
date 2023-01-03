@@ -1015,6 +1015,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1280026182}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: startToRun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &212850107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,7 +1516,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524427531}
-  m_LocalRotation: {x: 0.2477489, y: -0.009630128, z: 0.0024627575, w: 0.9687733}
+  m_LocalRotation: {x: 0.24774887, y: -0.009630088, z: 0.0024627466, w: 0.9687733}
   m_LocalPosition: {x: 0.17, y: 4.68, z: -8.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1854,7 +1866,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2367,7 +2379,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.2477489, y: -0.009630128, z: 0.0024627575, w: 0.9687733}
+  m_LocalRotation: {x: 0.24774887, y: -0.009630088, z: 0.0024627466, w: 0.9687733}
   m_LocalPosition: {x: 0.17, y: 4.68, z: -8.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
