@@ -8,7 +8,7 @@ namespace Plataformer2D.Core.Singleton
     {
         public static T Instance;
 
-        private void Awake() 
+        protected void Awake() 
         {
             if(Instance == null)
                 Instance = GetComponent<T>();

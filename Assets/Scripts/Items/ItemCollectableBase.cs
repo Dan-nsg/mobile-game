@@ -15,7 +15,7 @@ public class ItemCollectableBase : MonoBehaviour
 
     private void Awake() 
     {
-        //if(coinParticleSystem != null) coinParticleSystem.transform.SetParent(null);
+        if(coinParticleSystem != null) coinParticleSystem.transform.SetParent(null);
     }
 
     private void OnTriggerEnter(Collider collision) 
@@ -45,10 +45,15 @@ public class ItemCollectableBase : MonoBehaviour
 
     protected virtual void OnCollect() 
     { 
-        coinParticleSystem.Play();
+        if(coinParticleSystem != null)
+            coinParticleSystem.Play();
         if(audioSource != null) audioSource.Play();
-        coinParticleSystem.transform.parent = null;
-        Destroy(coinParticleSystem.gameObject, 2f);
+        
+        if(coinParticleSystem != null) 
+        {
+            coinParticleSystem.transform.parent = null;
+            Destroy(coinParticleSystem.gameObject, 2f);
+        }
     }
 
 

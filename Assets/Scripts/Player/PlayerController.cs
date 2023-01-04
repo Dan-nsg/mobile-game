@@ -37,6 +37,7 @@ public class PlayerController : Singleton<PlayerController>
     }
     private void Awake() 
     {
+        base.Awake();
     }
     void Update()
     {
