@@ -371,6 +371,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unity/2022.2.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/2022.2.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/AnimationExample.cs"
+"Assets/Scripts/AnimatorManager/AnimatorManager.cs"
 "Assets/Scripts/Items/ItemCollectableBase.cs"
 "Assets/Scripts/Items/ItemCollectableCoin.cs"
 "Assets/Scripts/Items/ItemManager.cs"
