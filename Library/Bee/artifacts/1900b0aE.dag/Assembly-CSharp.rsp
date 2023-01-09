@@ -377,6 +377,8 @@
 "Assets/Scripts/Items/ItemCollectableCoin.cs"
 "Assets/Scripts/Items/ItemManager.cs"
 "Assets/Scripts/LerpHelper.cs"
+"Assets/Scripts/LevelManager/LevelManager.cs"
+"Assets/Scripts/LevelManager/LevelPieceBase.cs"
 "Assets/Scripts/Plataformer2D/Core/Singleton/Singleton.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/PowerUp/PowerUpBase.cs"
