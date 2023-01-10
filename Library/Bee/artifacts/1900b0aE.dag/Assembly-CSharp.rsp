@@ -373,6 +373,8 @@
 -analyzer:"D:/Unity/2022.2.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AnimationExample.cs"
 "Assets/Scripts/AnimatorManager/AnimatorManager.cs"
+"Assets/Scripts/ArtPiece/ArtManager.cs"
+"Assets/Scripts/ArtPiece/ArtPiece.cs"
 "Assets/Scripts/Items/ItemCollectableBase.cs"
 "Assets/Scripts/Items/ItemCollectableCoin.cs"
 "Assets/Scripts/Items/ItemManager.cs"

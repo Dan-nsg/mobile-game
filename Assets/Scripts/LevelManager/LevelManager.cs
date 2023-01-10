@@ -8,6 +8,8 @@ public class LevelManager : MonoBehaviour
 
     public List<GameObject> levels;
 
+    public ArtManager.ArtType artType;
+
     [Header("Pieces")]
     public List<LevelPieceBase> levelPiecesStart;
     public List<LevelPieceBase> levelPieces;
@@ -85,6 +87,15 @@ public class LevelManager : MonoBehaviour
             var lastPiece = _spawnedPieces[_spawnedPieces.Count - 1];
             
             spawnedPiece.transform.position = lastPiece.endPiece.position;
+        }
+        else
+        {
+            spawnedPiece.transform.localPosition = Vector3.zero;
+        }
+
+        foreach(var p in spawnedPiece.GetComponentsInChildren<ArtPiece>())
+        {
+            p.ChangePiece(ArtManager.Instance.GetSetupByType(_currentSetup.artType).gameObject);
         }
 
         _spawnedPieces.Add(spawnedPiece);
