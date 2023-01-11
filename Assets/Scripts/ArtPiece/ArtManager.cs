@@ -17,7 +17,7 @@ public class ArtManager : Singleton<ArtManager>
 
     public ArtSetup GetSetupByType(ArtType artType)
     {
-        return artSetups.ForEach(i => i.artType = artType);
+        return artSetups.Find(i => i.artType == artType);
     }
 }
 
