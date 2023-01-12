@@ -8,26 +8,27 @@ public class LevelManager : MonoBehaviour
 
     public List<GameObject> levels;
 
+    public List<LevelPieceBasedSetup> levelPieceBasedSetups;
+
+    public float timeBetweenPieces = .3f;
+    
     public ArtManager.ArtType artType;
 
     [Header("Pieces")]
     public List<LevelPieceBase> levelPiecesStart;
     public List<LevelPieceBase> levelPieces;
     public List<LevelPieceBase> levelPiecesEnd;
-    public int piecesStartNumber = 3;
-    public int piecesNumber = 5;
-    public int piecesEndNumber = 1;
-    public float timeBetweenPieces = .3f;
+
 
     [SerializeField] private int _index;
 
     private GameObject _currentLevel;
 
-    private List<LevelPieceBase> _spawnedPieces;
+    private List<LevelPieceBase> _spawnedPieces = new List<LevelPieceBase>();
+    private LevelPieceBasedSetup _currSetup;
 
     private void Awake() 
     {
-        //SpawnNextLevel();
         CreateLevelPieces();
     }
 
@@ -38,14 +39,11 @@ public class LevelManager : MonoBehaviour
             Destroy(_currentLevel);
             _index++;
 
-
-            //0 >= 2
             if(_index >= levels.Count)
             {
                 ResetLevelIndex();
             }
         }
-
 
         _currentLevel = Instantiate(levels[_index], container);
         _currentLevel.transform.localPosition = Vector3.zero;
@@ -61,19 +59,30 @@ public class LevelManager : MonoBehaviour
     private void CreateLevelPieces()
     {
         _spawnedPieces = new List<LevelPieceBase>();
-        CleanSpawnedPieces();
+       
+       if(_currSetup != null)
+       {
+        _index++;
+
+        if(_index >= levelPieceBasedSetups.Count)
+        {
+            ResetLevelIndex();
+        }
+       }
+
+        _currSetup = levelPieceBasedSetup[_index];
 
         for(int i = 0; i < piecesStartNumber; i++)
         {
-            CreateLevelPiece(levelPiecesStart);
+            CreateLevelPiece(_currSetup.levelPiecesStart);
         }
         for(int i = 0; i < piecesNumber; i++)
         {
-            CreateLevelPiece(levelPieces);
+            CreateLevelPiece(_currSetup.levelPieces);
         }
         for(int i = 0; i < piecesEndNumber; i++)
         {
-            CreateLevelPiece(levelPiecesEnd);
+            CreateLevelPiece(_currSetup.levelPiecesEnd);
         }
     }
 
