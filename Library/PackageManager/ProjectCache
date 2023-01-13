@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638067922147940890
-    m_Hash: 2613293975
+      ticks: 638091795634362348
+    m_Hash: 1947253727
   m_LockFileStatus:
     m_FilePath: C:/Users/dnsgi/OneDrive/Desktop/Github/Projetos/Unity/mobile-game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638067922486229169
-    m_Hash: 1801557723
+      ticks: 638091795977212358
+    m_Hash: 2488409631
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/dnsgi/OneDrive/Desktop/Github/Projetos/Unity/mobile-game/Packages
-m_EditorVersion: 2022.2.1f1 (4fead5835099)
+m_EditorVersion: 2022.2.2f1 (c93c5d3acf5b)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.1
   testable: 0
@@ -36,13 +36,19 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: High-level NavMesh components for building and using NavMeshes at
     runtime and at edit time.
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
     - 1.1.1
     compatible:
     - 1.1.1
@@ -63,9 +69,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638023206030000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -81,12 +87,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.cinemachine@2.9.2
+- packageId: com.unity.cinemachine@2.9.4
   testable: 0
   isDirectDependency: 1
-  version: 2.9.2
+  version: 2.9.4
   source: 1
-  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.cinemachine@2.9.2
+  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.cinemachine@2.9.4
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -170,7 +176,6 @@ m_ResolvedPackages:
     - 2.9.4
     - 3.0.0-pre.3
     compatible:
-    - 2.9.2
     - 2.9.4
     - 3.0.0-pre.3
     recommended: 2.9.4
@@ -220,16 +225,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638019527120000000
+  datePublishedTicks: 638048876860000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 2cf333415b8b110b132992a53dbb9e64e0436b89
+    revision: 4327050bbc9fa7512f873bb9c6ce23434bfe198a
     path: 
   unityLifecycle:
-    version: 2.9.2
+    version: 2.9.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -340,7 +345,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -432,7 +437,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.16
+    version: 2.0.17
   - name: com.unity.test-framework
     version: 1.1.33
   - name: com.unity.ext.nunit
@@ -442,7 +447,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.16
+    version: 3.0.17
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -450,7 +455,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.1.1
   - name: com.unity.testtools.codecoverage
-    version: 1.2.1
+    version: 1.2.2
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -480,12 +485,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.17
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.17
   source: 1
-  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.ide.rider@3.0.17
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -535,10 +540,11 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
     - 3.0.17
+    - 3.0.18
     compatible:
-    - 3.0.16
     - 3.0.17
-    recommended: 3.0.17
+    - 3.0.18
+    recommended: 3.0.18
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -557,28 +563,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638058509720000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b8990fdcd79dc09dafde1a184f5e4b898fb5f19b
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.17
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.17
   source: 1
-  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -616,7 +622,6 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     compatible:
-    - 2.0.16
     - 2.0.17
     recommended: 2.0.17
     deprecated: []
@@ -643,16 +648,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638059987360000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.17
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -856,7 +861,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -964,12 +969,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     recommended: 3.0.6
     deprecated: []
@@ -997,7 +1004,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1234,12 +1241,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.7.8
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1283,10 +1290,8 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
-    - 1.8.0-pre.1
     - 1.8.0
-    recommended: 1.7.8
+    recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1314,16 +1319,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3433,12 +3438,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.1
+- packageId: com.unity.testtools.codecoverage@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 1.2.1
+  version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.testtools.codecoverage@1.2.1
+  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3485,7 +3490,6 @@ m_ResolvedPackages:
     - 1.2.1
     - 1.2.2
     compatible:
-    - 1.2.1
     - 1.2.2
     recommended: 1.2.2
     deprecated: []
@@ -3520,28 +3524,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638025601180000000
+  datePublishedTicks: 638047147810000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: b7046b55bd69649d03c19ddc1a1adfab2731332b
+    revision: 4178e047a15e206f715d23af69b02acd367bb000
     path: 
   unityLifecycle:
-    version: 1.2.1
+    version: 1.2.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.services.core@1.6.0
+- packageId: com.unity.services.core@1.7.0
   testable: 0
   isDirectDependency: 0
-  version: 1.6.0
+  version: 1.7.0
   source: 1
-  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.services.core@1.6.0
+  resolvedPath: C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\mobile-game\Library\PackageCache\com.unity.services.core@1.7.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3579,9 +3583,8 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     compatible:
-    - 1.6.0
     - 1.7.0
-    recommended: 1.6.0
+    recommended: 1.7.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3608,16 +3611,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638030857680000000
+  datePublishedTicks: 638059514260000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
+    revision: 08a8fcaac21b4eebbb92708e367ad3a276b6f5a6
     path: 
   unityLifecycle:
-    version: 1.6.0
+    version: 1.7.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

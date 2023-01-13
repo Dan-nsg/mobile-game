@@ -189,3 +189,4 @@ MonoBehaviour:
   collider: {fileID: 4692302307262138318}
   collect: 0
   lerp: 5
+  minDistance: 1
