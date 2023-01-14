@@ -34,12 +34,20 @@ public class PlayerController : Singleton<PlayerController>
 
     [Header("Animation")]
     public AnimatorManager animatorManager;
+    [SerializeField] private BounceHelper _bounceHelper;
 
     private void Start() 
     {
         _startPosition = transform.position;
         ResetSpeed();
     }
+
+    public void Bounce()
+    {   
+        if(_bounceHelper != null)
+            _bounceHelper.Bounce();
+    }
+
     private void Awake() 
     {
         base.Awake();
