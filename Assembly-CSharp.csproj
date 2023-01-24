@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\LevelManager\LevelPieceBasedSetup.cs" />
+     <Compile Include="Assets\Scripts\Utils\LineRendererHelper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\Utils\SO\SOInt.cs" />

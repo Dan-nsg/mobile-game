@@ -388,6 +388,7 @@
 "Assets/Scripts/TouchController.cs"
 "Assets/Scripts/Utils/BounceHelper.cs"
 "Assets/Scripts/Utils/ColorChange.cs"
+"Assets/Scripts/Utils/LineRendererHelper.cs"
 "Assets/Scripts/Utils/LoadSceneHelper.cs"
 "Assets/Scripts/Utils/MovementHelper.cs"
 "Assets/Scripts/Utils/SO/SOFloat.cs"

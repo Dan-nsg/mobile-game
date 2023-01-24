@@ -45,15 +45,13 @@ public class ItemCollectableBase : MonoBehaviour
 
     protected virtual void OnCollect() 
     { 
-        if(coinParticleSystem != null)
-            coinParticleSystem.Play();
-        if(audioSource != null) audioSource.Play();
-        
-        if(coinParticleSystem != null) 
+        if(GetComponent<ParticleSystem>() != null)
         {
-            coinParticleSystem.transform.parent = null;
-            Destroy(coinParticleSystem.gameObject, 2f);
+            GetComponent<ParticleSystem>().transform.SetParent(null);
+            GetComponent<ParticleSystem>().Play();
         }
+
+        if(audioSource !=null) audioSource.Play();
     }
 
 
